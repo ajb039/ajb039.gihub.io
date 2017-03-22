@@ -1,0 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Linden+Hill|Arsenal|Rock+Salt|Cinzel:400|Trirong|IM+Fell+Double+Pica');
+
+body {
+  margin: 0;
+  padding: 0px;
+  font-style: normal;
+  font-family: 'Linden Hill';
+
+  /*font-family: "franklin-gothic-urw","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+}
+/* Start Header Section */
+header {
+  position: fixed;
+  width: 100%;
+}
+nav div figure img {
+  padding-top: 2px;
+  height:50px;
+}
+.logo {
+  display: inline-block;
+  font-size: 30px;
+  font-family: 'Cinzel';
+  font-weight: 400;
+  padding-left: 20px;
+}
+nav {
+    color: black;
+    background-color: white;
+    border-top: 8px solid #305A47;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    /*position: fixed;*/
+    top:0;
+    width: 100%;
+}
+nav ul {
+  display: inline-block;
+  list-style: none;
+  padding-right: 30px;
+}
+nav ul li {
+  display: inline-block;
+  padding:0px 5px;
+}
+nav div a {
+  text-decoration: none;
+  color: black;
+}
+nav div a:visited {
+  text-decoration: none;
+  color: black;
+}
+/* End Header Section */
+
+/* Top Image */
+.section-top-image {
+  background:url("../img/restaurant-inner.jpg");
+  background-size: cover;
+}
+/* End top image */
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 1px;
+  padding: 0px;
+  border: 0px solid red;
+}
+.grid-main-inner-container {
+  width: 80%;
+  display: flex;
+  margin: 0px auto;
+  border: 0px solid black;
+  padding: 0px;
+}
+.grid-back-color-override {
+  background-color: #4894af;
+}
+.grid-columns {
+    border: 0px solid RGB(0,106,77);
+    display: flex;
+    width: 100%;
+    padding: 5px;
+}
+.grid-rows {
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  border: 0px solid blue;
+  flex: 1;
+  width: 100%;
+  /*padding: 10px;*/
+}
+body h1, h2, h3, h4, h5, h6 {
+  color: #305A47;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+.section-test-height {
+  height: 60vh;
+}
+.quote-lg {
+  font-family: 'Rock Salt';
+  color: #305A47;
+  font-size: 30px;
+  text-align: center;
+}
+.welcome {
+  padding: 0px 20px 0px 5px;
+}
+.pub-details-main {
+  border: 1px solid #305A47;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  background-color: #305A47;
+  color: #f0f0f0;
+}
+.pub-details-inner-img {
+  width:30%;
+}
+.pub-details-inner-details {
+  width:70%;
+  padding: 5px;
+}
+.contact-section {
+  background-color: #f0ede6;
+  border-top: 1px solid #305A47;
+}
+.address {
+  padding-left: 10px;
+  border: 1px solid #305A47;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.opening-hours {
+  padding-left: 10px;
+  border: 1px solid #305A47;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.contact-us {
+  padding-left: 10px;
+  border: 1px solid #305A47;
+  border-radius: 5px;
+}
+figure {
+  border: 0px solid #417378;
+  max-width: 100%;
+}
+figure img {
+  max-width: 100%;
+  border: 0px solid orange;
+}
+
+/* Start footer section */
+.pre-footer {
+  border-top: 1px solid #305A47;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #305A47;
+  color: #f0f0f0;
+}
+footer h3, h4 {
+    color: #f3f3f3;
+}
+.top-footer {
+  padding: 20px 0px 10px 0px;
+}
+.bottom-footer {
+  display: flex;
+  width: 80%;
+  margin: 0px auto;
+  height: 35vh;
+}
+/* End footer section */
